@@ -1,0 +1,134 @@
+@media(max-width: 1120px) {
+
+    .main-card {
+        flex-wrap: wrap;
+       justify-content: center;
+        
+    }
+    .card-title {
+      max-width: 400px;
+      width: 100%;
+        width: 100%;
+    }
+    .nav {
+        justify-content: space-around;
+    }
+    .footer-nav {
+        justify-content: space-around;
+    }
+    .cards-main {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-main {
+    max-width: 250px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    padding: 0;
+    }
+
+    .card-img1 , .card-img2 {
+        max-width: 400px;
+        width: 100%;
+       
+    }
+    .card-img3 {
+        max-width: 250px;
+        width: 100%;
+       
+    }
+    .left::after {
+        display: none;
+    }
+    .right::before {
+        display: none;
+    }
+}
+
+
+
+@media(max-width: 760px) {
+    .header-title {
+        font-size: 70px;
+        line-height: 50px;
+    }
+    .footer-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-main {
+        margin-left: 50px;
+    }
+    .nav {
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+    .footer-right {
+        margin: 0;
+    }
+
+  
+}
+
+@media(max-width: 520px) {
+    .header-title {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .nav-link, .footer-link{
+        font-size: 15px;
+        line-height: 20px;
+     }
+     .footer-icon {
+         font-size: 40px;
+
+     }
+     .card-img1, .card-img2{
+         margin-left: 0;
+         margin-right: 0;
+     }
+     .footer-logo {
+         margin: 0;
+     }
+}
+
+@media(max-width: 420px) {
+    .card-img1, .card-img2 {
+        max-width: 200px;
+        width: 100%;
+    }
+    .card-img3 {
+        max-width: 10px;
+        width: 100%;
+    }
+    .header-title {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .header-link {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+    .nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-link {
+        margin: 10px 20px ;
+    }
+    .card-main {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 200px;
+        width: 100%;
+    }
+    .header-link {
+        margin-top: 20px;
+    }
+  
+}
+
